@@ -1,0 +1,29 @@
+{
+  "name": "study-note",
+  "version": "0.0.1",
+  "description": "日常学习笔记",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arima-P/study-note.git"
+  },
+  "keywords": [
+    "study",
+    "note",
+    "js",
+    "ts",
+    "vue",
+    "react",
+    "css",
+    "html"
+  ],
+  "author": "Arima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arima-P/study-note/issues"
+  },
+  "homepage": "https://github.com/Arima-P/study-note#readme"
+}
