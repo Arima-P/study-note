@@ -44,6 +44,7 @@
 - CSS 动画
   - css 动画启用 GPU 加速，应用 GPU 的图形性能对浏览器中的一些图形操作交给 GPU 完成。canvas2D，布局合成，css3 转换，css3d 变换，webGL，视频
   - 2d 加速
-  - 3d 加速
+  - 3d 加速，`translate3D`/`scaleZ`
+  - `will-change`
 - 减少使用昂贵的属性
   - box-shadow, border-radius, filter, 透明度, :nth-child 等
