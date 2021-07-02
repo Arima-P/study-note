@@ -31,12 +31,12 @@
     3. 字体有关的 font-size,text-align,font-weight,font-family,line-height,white-space,vertical-align
     4. 隐藏有关的 overflow,overflow-x,overflow-y
   - 减少**回流**的操作建议
-    1.  不要一条条的修改 dom 的样式，预先定义好 class，然后修改 dom 的 classname
-    2.  不要修改影响范围较大的 dom
-    3.  为动画元素使用绝对定位
-    4.  不要 table 布局，因为一个很小的改动会造成整个 table 重新布局
-    5.  避免设置大量的 style 属性，通过设置 style 属性改变节点样式的话，每一次设置都会触发一次 reflow，所以最好使用 class 属性
-    6.  如果 css 里面有计算表达式，每次都会重新计算一遍，触发一次 reflow
+    1. 减少回流的次数----不要一条条的修改 dom 的样式，预先定义好 class，然后修改 dom 的 classname
+    2. 减少回流范围----不要修改影响范围较大的 dom
+    3. 为动画元素使用绝对定位
+    4. 不要 table 布局，因为一个很小的改动会造成整个 table 重新布局
+    5. 避免设置大量的 style 属性，通过设置 style 属性改变节点样式的话，每一次设置都会触发一次 reflow，所以最好使用 class 属性
+    6. 如果 css 里面有计算表达式，每次都会重新计算一遍，触发一次 reflow
 - **重绘**
   - 颜色 color,background
   - 边框样式 border-style,outline-color,outline,outline-style,border-radius,box-shadow,outline-width
